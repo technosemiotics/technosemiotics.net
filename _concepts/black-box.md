@@ -1,0 +1,6 @@
+---
+title: black box
+tags: [cybernetics, technology and society]
+---
+
+> “The conceptual metaphor ‘black box’ was originally an engineering term for any component designed to take in certain kinds of inputs (energy, signals, information, etc.) and convert them into specified outputs (e.g., a radio, a voltage transformer, a codec for converting digital into analog audio/video): the details inside the components can just stay ‘hidden’ (‘black-boxed’, ‘don’t need to know’, ‘built-in’), because only the outputs matter for the design purpose. The concept is now universally used in systems and software design: ‘blackboxing’ is used to hide the internal complexities of a module (at one functional level) that other modules in a system ‘don’t need to know about’ for using the outputs communicated to system (see below on systems and design theory). But in our contemporary political economy for intellectual-property-protected products, this design principle is also used intentionally to close off access to computing systems in ‘black-boxed’ manufactured devices, which are intended to maintain ‘users’ as passive consumers blocked from understanding the universal semiotic principles on which the devices depend.” (Irvine 2022: 205-206)
