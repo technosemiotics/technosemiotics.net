@@ -1,0 +1,50 @@
+// Placeholder to allow overriding predefined variables smoothly.
+
+
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+
+
+
+
+$base-font-size:   1rem !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.4 !default;
+
+
+
+
+
+
+
+// Minima color variables OVERRIDE
+// ----------------------
+
+/*$brand-color:           $sol-mono1 !default;
+$brand-color-light:     $sol-mix4 !default;
+$brand-color-dimmed:    $sol-mono1-dimmed !default;
+$brand-color-dark:      $sol-mono00 !default;
+
+$site-title-color:      $sol-mono00 !default;*/
+
+$heading-color:         #00594F !default;
+$text-color:            #00594F !default;
+$background-color:      #f1ede7 !default;
+$code-background-color: $sol-mix3 !default;
+
+$link-base-color:       #002c27 !default;
+/*$link-visited-color:    $sol-link-visited !default;
+$link-hover-color:      $sol-mono00 !default;
+
+$border-color-01:       $brand-color-light !default;
+$border-color-02:       $sol-mono1 !default;
+$border-color-03:       $sol-mono00 !default;
+
+$table-text-color:      $sol-mono00 !default;
+$table-zebra-color:     $sol-mix3 !default;
+$table-header-bg-color: $sol-mono2 !default;
+$table-header-border:   $sol-mix1 !default;
+$table-border-color:    $sol-mix1 !default;*/

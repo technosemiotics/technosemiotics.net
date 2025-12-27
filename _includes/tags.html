@@ -1,0 +1,10 @@
+  {% if page.tags %}
+    {% assign tags = page.tags %}
+    <span class="post-meta tags">
+      {% for tag in tags %}
+        <a href="{{site.baseurl}}/tags/#{{tag|slugify}}" class="label"> {{ tag }} </a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
+    <div class="spacer"></div>
+  {% endif %}

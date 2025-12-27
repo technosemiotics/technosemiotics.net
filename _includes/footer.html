@@ -1,0 +1,40 @@
+<footer class="site-footer h-card">
+  <data class="u-url" value="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col-1">
+      {%- if site.author %}
+        <ul class="contact-list">
+
+          {% if site.author.orcid -%}
+            <li class="p-name">Maintained by <a href="{{ site.author.orcid }}">{{ site.author.name | escape }}</li>
+          {% else -%}
+            <li class="p-name">Maintained by {{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+
+    <div class="social-links">
+      {%- include footer-social.html -%}
+    </div>
+      </div>
+      <div class="footer-col-2">
+        <div class="footer-nav">
+          {%- assign footer_page_paths = site.minima.nav_pages_footer | default: default_paths -%}
+          {% include nav-items.html paths = footer_page_paths %}
+        </div>
+      </div>
+      <div class="footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+
+  </div>
+
+</footer>

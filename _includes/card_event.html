@@ -1,0 +1,63 @@
+{% comment %}
+<!-- cards layout adapted from Jekyll Sleek theme by Jan Czizikow -->
+{% endcomment %}
+
+<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+  {% if event.categories %}
+    {% assign categories = event.categories %}
+    <span class="post-card__label">
+      {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugify}}" class="label"> {{ category }} </a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
+  {% endif %}
+  {% if event.website %}
+    <a href="{{ event.website }}" target="_blank">
+  {% else %}
+    <a href="{{ event.url | relative_url }}">
+  {% endif %}
+    {% if event.featured-img %}
+      <figure class="post-card__thumb">
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{event.featured-img}}"
+          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{event.featured-img}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/events/{{event.featured-img}}_thumb@2x.jpg 2x"
+          class="lazyload blur"
+          alt="{{event.title}}"
+        />
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{event.featured-img}}" alt="{{ event.title }}"></noscript>
+      </figure>
+    {% else %}
+      <figure class="post-card__thumb">
+        <div class="dark-bg"></div>
+      </figure>
+    {% endif %}
+  </a>
+  {% if event.website %}
+    <a class="post-card__inner" href="{{ event.website }}" target="_blank">
+  {% else %}
+    <a class="post-card__inner" href="{{ event.url | relative_url }}">
+  {% endif %}
+    <div class="post-card__header">
+      <h5>{{ event.title | strip_html | truncate: 70 }}</h5>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      <span class="post-card__meta">
+        {% if event.end %}<time>{{ event.start | date: "%b %-d" }}</time>&mdash;<time>{{ event.end | date: "%b %-d, %Y" }}</time>
+        {% else %}
+        <time>{{ event.start | date: "%b %-d, %Y" }}</time>
+        {% endif %}
+        {% if event.starttime %}
+        <time>{{ event.starttime | date: "%H:%M" }}</time>{% if event.endtime %}&mdash;<time>{{ event.endtime | date: "%H:%M %Z" }}</time>{% endif %}
+        {% endif %}
+        {% if event.place %}
+        <place>&nbsp;|&nbsp;{{ event.place }}</place>
+        {% endif %}
+      </span>
+    </div>
+    {% if event.summary %}
+      <p>{{ event.summary | strip_html | truncatewords:20 }}</p>
+    {% else %}
+      <p>{{ event.content | strip_html | truncatewords: 20 }}</p>
+    {% endif %}
+  </a>
+</div>

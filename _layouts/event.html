@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+<div itemscope itemtype="https://schema.org/Event">
+  {%- include event-header.html -%}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+        <div class="post-content" itemprop="description">
+          {% if page.featured-img %}
+          <img class="featured" src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{page.featured-img}}" alt="{{ page.title }}" />
+          {% endif %}
+          {{ content }}
+        </div>
+        {%- include tags.html -%}
+        {%- include post-navigation.html -%}
+      </article>
+    </div>
+  </main>
+</div>
