@@ -7,7 +7,7 @@ featured-img: shane-rounce-205187
 ---
 
 
-{% include youtubePlayer.html id="Sqa8Zo2XWc4" %}
+{% include youtube-player.html id="Sqa8Zo2XWc4" %}
 
 27 Feb 2023 “Last Week Tonight with John Oliver” session on artificial intelligence
 
