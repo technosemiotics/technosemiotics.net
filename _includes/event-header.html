@@ -1,0 +1,70 @@
+
+  <header class="hero-header">
+    {%- include categories.html -%}
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+    {% if page.subtitle %}
+    <div class="post-meta subtitle">{{ page.subtitle | escape }}</div>
+    {% endif %}
+
+    <div class="post-meta">
+      {%- assign date_format = site.minima.event_date_format | default: "%b %-d, %Y %H:%M" -%}
+
+
+
+
+    {%- if page.start %}
+      <time class="dt-start" datetime="{{ page.start }}" itemprop="startDate">
+        {{ page.start | date: date_format }}
+      </time>
+    {% endif %}
+
+
+    {%- if page.end %}
+      <span class="bullet-divider">•</span>
+      <time class="dt-start" datetime="{{ page.end }}" itemprop="endDate">
+        {{ page.end | date: date_format }}
+      </time>
+    {% endif %}
+
+    {%- if page.location %}
+    <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
+
+        <span itemprop="place" itemscope itemtype="https://schema.org/Place">
+          <span class="p-author h-card" itemprop="name">{{ location }}</span></span>
+
+    </div>
+    {%- endif %}
+
+
+
+
+
+
+
+      {% assign pdate = page.published_date | date_to_xmlschema %}
+      {%- if page.published_date %}<span class="meta-label">Published:</span>
+      
+      <time class="dt-published" datetime="{{ pdate }}" itemprop="datePublished">
+        {{ pdate | date: date_format }}
+      </time>{% endif %}
+
+      {%- if page.modified_date -%}
+        <span class="bullet-divider">•</span>
+        <span class="meta-label">Updated:</span>
+        {%- assign mdate = page.modified_date | date_to_xmlschema %}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+      {%- if page.author %}
+      <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
+        {%- for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+          {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      </div>
+      {%- endif %}
+    </div>
+  </header>
