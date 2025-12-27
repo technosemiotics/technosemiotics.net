@@ -19,3 +19,4 @@ Gemfile.lock
 
 # Other ignores
 .DS_Store
+_ajutine/
