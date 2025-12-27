@@ -6,7 +6,7 @@ layout: base
   <section class="sleek-blog">
     <div class="container">
       <div class="sleek-post-list" itemscope="" itemtype="http://schema.org/Blog">
-        {% assign events = site.events | sort: 'start' | reverse %}     
+        {% assign events = site.events %}     
         {% for event in events %}
         {% include card_event.html %}
         {% endfor %}
