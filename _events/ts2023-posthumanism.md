@@ -1,12 +1,13 @@
 ---
-title: "Know thyself and beyond™, A postphenomenological mediational analysis of transhuman AI and the self"
+title: "Know thyself and beyond"
+subtitle: "A postphenomenological mediational analysis of transhuman AI and the self"
 summary: "We continue the third Technosemiotics seminar with Jared Smith."
 featured-img: ts-2023-05-29.png
 categories: [Technosemiotics seminars 2023]
 tags: 
 start: 2023-05-29 
-starttime: 18:00 EET
-endtime: 20:00 EET
+starttime: 18:00 EEST
+endtime: 20:00 EEST
 ---
 
 

@@ -39,7 +39,7 @@
     <a class="post-card__inner" href="{{ event.url | relative_url }}">
   {% endif %}
     <div class="post-card__header">
-      <h5>{{ event.title | strip_html | truncate: 70 }}</h5>
+      <h5>{{ event.title | strip_html | truncate: 90 }}</h5>
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <span class="post-card__meta">
         {% if event.end %}<time>{{ event.start | date: "%b %-d" }}</time>&mdash;<time>{{ event.end | date: "%b %-d, %Y" }}</time>

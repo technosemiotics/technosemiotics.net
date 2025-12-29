@@ -3,6 +3,7 @@ title: "Technosemiotics: On the digital semiosphere"
 start: 2023-10-23
 starttime: 18:00 EEST
 endtime: 20:00 EEST
+place: online
 categories: [Technosemiotics seminars 2023]
 featured-img: ts-2023-10-23.png
 ---

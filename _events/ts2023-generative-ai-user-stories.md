@@ -6,6 +6,7 @@ categories: [Technosemiotics seminars 2023]
 start: 2023-08-07 
 starttime: 16:00 EEST
 endtime: 18:00 EEST
+place: online
 permalink: /ts-extra-generative-ai-user-stories/
 featured-img: ts-2023-08-07.png
 ---

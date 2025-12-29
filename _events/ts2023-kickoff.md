@@ -4,8 +4,10 @@ summary: "In the first session, semiotics PhD students Auli Viidalepp, Alec Kozi
 featured-img: ts-2023-04-24.png
 categories: [Technosemiotics seminars 2023]
 tags: 
-start: 2023-04-23
+start: 2023-04-24
 starttime: 18:00 EEST
+endtime: 20:00 EEST
+place: online
 ---
 
 

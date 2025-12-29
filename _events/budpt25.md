@@ -1,7 +1,7 @@
 ---
 title: "Budapest Workshop on Philosophy of Technology 2025"
 summary: ""
-place: Budapest
+place: Budapest, HU
 categories: [Conferences]
 tags: [philosophy of technology, STS]
 start: 2025-11-27

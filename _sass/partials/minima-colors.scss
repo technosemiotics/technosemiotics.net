@@ -1,0 +1,59 @@
+// Minima skin colors
+
+
+// Light mode
+// ----------
+
+$lm-brand-color:           #818181 !default;
+$lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
+$lm-brand-color-dimmed:    darken($lm-brand-color, 11%) !default;
+$lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
+
+$lm-site-title-color:      $lm-brand-color-dark !default;
+
+$lm-heading-color:         #111111 !default;
+$lm-text-color:            $lm-brand-color-dark !default;
+$lm-background-color:      #fdfdfd !default;
+$lm-code-background-color: #f6f8fa !default;
+
+$lm-link-base-color:       #1e69d8 !default;
+$lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
+$lm-link-hover-color:      $lm-text-color !default;
+
+$lm-border-color-01:       $lm-brand-color-light !default;
+$lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
+$lm-border-color-03:       $lm-brand-color-dark !default;
+
+$lm-table-text-color:      lighten($lm-heading-color, 18%) !default;
+$lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
+$lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
+$lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
+$lm-table-border-color:    $lm-border-color-01 !default;
+
+// Classic skin 
+// Assign outside of the if construct to establish global variable scope
+
+$brand-color: $lavender-mist;
+$brand-color-light: $lm-brand-color-light;
+$brand-color-dimmed: $lm-brand-color-dimmed;
+$brand-color-dark: $lm-brand-color-dark;
+
+$site-title-color: $lm-site-title-color;
+
+$heading-color: $lm-heading-color;
+
+$code-background-color: $lm-code-background-color;
+
+$link-base-color: $lm-link-base-color;
+$link-visited-color: $lm-link-visited-color;
+$link-hover-color: $lm-link-hover-color;
+
+$border-color-01: $lm-border-color-01;
+$border-color-02: $lm-border-color-02;
+$border-color-03: $lm-border-color-03;
+
+$table-text-color: $lm-table-text-color;
+$table-zebra-color: $lm-table-zebra-color;
+$table-header-bg-color: $lm-table-header-bg-color;
+$table-header-border: $lm-table-header-border;
+$table-border-color: $lm-table-border-color;

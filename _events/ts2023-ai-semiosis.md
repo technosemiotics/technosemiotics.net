@@ -8,6 +8,7 @@ tags:
 start: 2023-11-13
 starttime: 18:00 EET
 endtime: 20:00 EET
+place: online
 ---
 
 

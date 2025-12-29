@@ -1,115 +1,46 @@
 ---
 ---
 
+@import
+  "partials/base-variables",
+  "partials/color-variables"
+;
+
+
 
 @import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+  "base",             // Defines element resets.
+  "layout";           // Defines structure and style based on CSS selectors.
 
 @import
-  "partials/sleek",
+  "partials/home",
+  "partials/header",    // Defines element resets.
+  "partials/footer",    // Defines structure and style based on CSS selectors.
+  "partials/heroes",    // hero blocks
+  "partials/content-meta",
+  "partials/content",
+  "partials/embeds"
+;
+
+
+@import
+  "partials/sleek-mixins",
   "partials/card";
 
-
-
-.spacer {
-  display: block;
-  height: $spacing-unit;
-}
-
-/**
- *  #### HERO BLOCKS ####
- */
-.hero-header {
-  width: 100%;
-  line-height: $base-line-height * $base-font-size * 1.05;
-  background-color: $hero-bg;
-  padding: 2em 0;
-  margin: 0;
-  text-align: center;
-}
-
-
-.post-meta.subtitle {
-  font-weight: 500;
-}
-
-
-.post-meta.categories {
-  font-weight: 400;
-  
-
-}
-
-  
-/**
- * Sleek labels by 
- */
-
-.label {
-  padding: 0px 10px;
-  margin-bottom: 1rem;
-  display: inline-block;
-  line-height: 20px;
-  font-size: .75rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgba(83,0,83,0.8);
-  border: 2px solid rgba(83,0,83,0.5);
-  border-radius: 100px;
-  transition: all 0.2s ease;
-
-  &,
-  &:visited {
-    color: $border;
-  }
-
-  &:focus,
-  &:hover {
-    color: $platinum !important;
-    background-color: $border;
-    border: 2px solid $border;
-    text-decoration: none;
-  }
-} 
-
-
-.sleek-blog {
-  .label {
-    color: rgba(255,255,255,0.8);
-    border: 2px solid rgba(255,255,255,0.5);
-  }
-}
-
-
-/**
- * Jekyll video embed partial by Nathan Lam, June 2, 2017
- * Add this css for responsive embedded videos in your .css file. */
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container iframe, .embed-container object, .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+// Import pre-styling-overrides hook and style-partials.
+@import
+  "minima/custom-styles"     // Hook to override existing styles.
+;
 
 
 
 
 
-/**
- * front page
- */
 
-.post-link {
-  font-size: initial;
-} 
+
+
+
+
+
+
+

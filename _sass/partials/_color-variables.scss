@@ -1,0 +1,119 @@
+// Define defaults for each variable.
+// Site-specific colour variables
+
+/* colours */
+$platinum: #eef0f2ff;
+$coffee-bean: #251101ff;
+
+$sharp-magenta: #8b008b;
+$tyrian-purple: #66023C;
+$dark-magenta: #530053;
+$deep-purple: #521945ff;
+$midnight-violet: #361f27ff;
+
+$thistle: #d8bfd8;
+$lavender-mist: #E7E8F3;
+$lavender-mist-2: #EFF0FC;
+$lavender-mist-3: #EEEFFC;
+$ghost-white: #E9EAF3;
+
+
+
+/**
+ * COLOUR DEFAULTS
+ */
+
+// Backgrounds
+$background-color: $lavender-mist;
+
+// Navbar
+$site-title-color: $platinum;
+$nav-background-color: $coffee-bean;
+$nav-link-color: $platinum;
+
+
+
+// Hero blocks
+$hero-bg: $thistle;
+$hero-background-color: $thistle;
+
+// Text and headings
+$text-color: $midnight-violet;
+$heading-color: $coffee-bean;
+$blockquote: $deep-purple;
+$blockquote-text-color: $deep-purple;
+
+
+
+// Borders
+$border-color: $dark-magenta;
+$border-light: $thistle;
+
+// Cards in grid
+$card-bg: $lavender-mist-2;
+$card-text: $midnight-violet;
+$card-background-color: $lavender-mist-2;
+$card-text-color: $midnight-violet;
+
+
+// Links
+$link: $sharp-magenta;
+$link-color: $sharp-magenta;
+$link-base-color: $link-color;
+$link-visited-color: $tyrian-purple;
+$link-hover-color: $link-visited-color;
+
+// footer 
+$footer-text-color: $text-color;
+$footer-link-color: $link-color;
+$footer-border-color: $border-color;
+
+// Sleek variables
+// adapted from Jekyll Sleek theme by Jan Czizikow
+
+$primary: #002c27 !default;
+$secondary: #ff6161 !default;
+$border: #ededed !default;
+$primary-light: #68a4f1;
+$reverse: #3c3d41 !default;
+$success: #8fd896 !default;
+$error: #ff6161 !default;
+
+
+$light-bg-color: $platinum;
+
+$button-dark: #00594F;
+$dark-light: #594f00;
+$outline: #dbdbdb;
+$grey: $platinum;
+
+
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+
+
+// Code
+$code-bg-color: #f6f8fa !default;
+$code-background-color: $code-bg-color;
+$code-text-color: #25292e !default;
+
+
+// Classic skin 
+// Assign outside of the if construct to establish global variable scope
+
+$brand-color: $lavender-mist;
+$brand-color-light: $brand-color;
+$brand-color-dimmed: $brand-color;
+$brand-color-dark: $brand-color;
+
+
+$border-color-01: $border-color;
+$border-color-02: $border-light;
+$border-color-03: $border-color;
+
+$table-text-color: $text-color;
+$table-zebra-color: $lavender-mist-3;
+$table-header-bg-color: $thistle;
+$table-header-border: $border-color;
+$table-border-color: $border-color;
+
+

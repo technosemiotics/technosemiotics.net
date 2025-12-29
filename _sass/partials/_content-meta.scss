@@ -1,0 +1,49 @@
+.post-meta.subtitle {
+  font-weight: 500;
+}
+
+
+.post-meta.categories {
+  font-weight: 400;
+  
+}
+
+
+/**
+ * Sleek category labels by 
+ */
+
+.label {
+  padding: 0px 10px;
+  margin-bottom: 1rem;
+  display: inline-block;
+  line-height: 20px;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(83,0,83,0.8);
+  border: 2px solid rgba(83,0,83,0.5);
+  border-radius: 100px;
+  transition: all 0.2s ease;
+
+  &,
+  &:visited {
+    color: $border;
+  }
+
+  &:focus,
+  &:hover {
+    color: $platinum !important;
+    background-color: $border-color;
+    border: 2px solid $border-color;
+    text-decoration: none;
+  }
+} 
+
+
+.sleek-blog {
+  .label {
+    color: rgba(255,255,255,0.8);
+    border: 2px solid rgba(255,255,255,0.5);
+  }
+}

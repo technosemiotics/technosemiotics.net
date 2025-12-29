@@ -1,7 +1,7 @@
 ---
 title: "Budapest Workshop on Philosophy of Technology 2023"
 summary: ""
-place: Budapest
+place: Budapest, HU
 categories: [Conferences]
 tags: [philosophy of technology, STS]
 start: 2023-11-30

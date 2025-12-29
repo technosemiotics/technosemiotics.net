@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
-
+// Jekyll Minima theme variables
 
 $base-font-family: -apple-system, "Helvetica Neue", Arial, sans-serif !default;
 
@@ -44,3 +44,11 @@ $on-large:         $on-laptop !default;
 }
 
 
+// Sleek Jekyll skin
+
+// Breakpoints
+$xs: 0;
+$sm: 36em; //576px
+$md: 48em; //768px
+$lg: 62em; //992px
+$xl: 75em; //1200px

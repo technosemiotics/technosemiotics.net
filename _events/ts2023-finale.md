@@ -1,11 +1,12 @@
 ---
 title: "Technosemiotics 2023 finale"
 summary: "We discuss recommendation algorithms with Daria Arkhipova, and future directions."
-featured-img: ts-24APR2023-wordcloud_landscape-1.png
+featured-img: ts-2023-12-04.png
 categories: [Technosemiotics seminars 2023]
-tags: 
-start: 2023-12-04 18:00 EET
-end: 2023-12-04 20:00 EET
+start: 2023-12-04
+starttime: 18:00 EET
+endtime: 20:00 EET
+place: online
 ---
 
 

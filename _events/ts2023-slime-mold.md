@@ -5,6 +5,8 @@ featured-img: ts-2023-05-08.png
 categories: [Technosemiotics seminars 2023]
 start: 2023-05-08
 starttime: 18:00 EEST
+endtime: 20:00 EEST
+place: online
 ---
 
 

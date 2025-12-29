@@ -4,6 +4,8 @@ subtitle: 'Why we do not communicate with machines: Rethinking “Language” in
 summary: "In the fourth seminar, we discuss human–machine interactions through the concept of languaging as an embodied process with Marie-Theres Fester-Seeger."
 featured-img: ts-2023-06-19.png
 start: 2023-06-19
+starttime: 18:00 EEST
+endtime: 20:00 EEST
 categories: [Technosemiotics seminars 2023]
 ---
 

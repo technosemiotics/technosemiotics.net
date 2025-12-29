@@ -4,96 +4,16 @@
 
 
 
-/* colours */
-$platinum: #eef0f2ff;
-$coffee-bean: #251101ff;
-
-$sharp-magenta: #8b008b;
-$tyrian-purple: #66023C;
-$dark-magenta: #530053;
-$deep-purple: #521945ff;
-$midnight-violet: #361f27ff;
-
-$thistle: #d8bfd8;
-$lavender-mist: #E7E8F3;
-$lavender-mist-2: #EFF0FC;
-$lavender-mist-3: #EEEFFC;
-$ghost-white: #E9EAF3;
-
-
-
-
-/**
- * COLOUR DEFAULTS
- */
-
-$bg-color: $lavender-mist;
-$text: $midnight-violet;
-$heading-color: $coffee-bean;
-
-$nav-bg: $coffee-bean;
-$nav-link: $platinum;
-
-$hero-bg: $thistle;
-
-$border: $dark-magenta;
-$border-light: $thistle;
-
-$card-bg: $lavender-mist-2;
-$card-text: $midnight-violet;
-
-$blockquote: $deep-purple;
-$link: $sharp-magenta;
-$link-hover: $tyrian-purple;
 
 
 
 
 
 
-/** 
- * ##### BODY STYLES ##### 
- */
 
-body {
-  font-family: "Helvetica Neue", sans-serif;  
-  background-color: $bg-color;
-  color: $text;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-
-  a,
-  a:visited,
-  a:hover {
-    text-decoration: none;
-  }
-}
-
-/**
- * Site header
- */
-.site-header {
-  background-color:$nav-bg;
-  border-top: 5px solid $border;
-  border-bottom: 1px solid $border;
-}
-
-.site-title {
-	font-size: 1.1rem;
-  letter-spacing: 0;
-	&,
-  &:visited {
-    color: $nav-link;
-    text-decoration: none;
-  }
-  &:hover {
-  	text-decoration: none !important;
-  }
-}
-
-.site-nav {
+/*.site-nav {
 	.nav-item {
-		color: $nav-link; /* light text dark bg */
+		color: $nav-link-color; 
 		font-size: 0.75rem;
     letter-spacing: 1px;
 		font-weight: 400;
@@ -103,14 +23,14 @@ body {
       color: #fff;
     }
 	}
-}
+}*/
 
 /* small screen dropdown reverse menu colour fix */
-.site-nav #nav-trigger:checked ~ .nav-items .nav-item {
+/*.site-nav #nav-trigger:checked ~ .nav-items .nav-item {
         color: inherit;
     }
 
-
+*/
 header {
   /*border-bottom: 1px solid $border;*/
 
@@ -194,17 +114,17 @@ blockquote {
  * Links
  */
 .page-content a {
-  color: $link;
+  color: $link-color;
   text-decoration: none;
   font-weight: 500;
 
   &:visited {
-    color: $link-hover;
+    color: $link-visited-color;
   }
 
   &:hover {
-    color: $link-hover;
-    text-decoration: underline $link-hover;
+    color: $link-hover-color;
+    text-decoration: underline $link-hover-color;
     text-underline-offset: 3px;
   }
 
@@ -224,36 +144,35 @@ blockquote {
 /**
  * Site footer
  */
-.site-footer {
+/*.site-footer {
   border-top: 2px solid $border;
 }
-
-.footer-col-wrapper, .social-links {
-	color: $link !important;
+*/
+/*.footer-col-wrapper, .social-links {
+	color: $link-color !important;
 
   a,
   a:hover,
   a:visited {
-  	color: $link-hover !important;
+  	color: $link-visited-color !important;
   }	
-}
+}*/
 
-.footer-nav {
+/*.footer-nav {
   a.nav-item {
     display: block;
   }
-}
+}*/
 
-.social-media-list {
+/*.social-media-list {
 	margin: 0;
-
 
 	li {
     float: left;
     min-width: 1.5rem;
     min-height: 1.5rem; 
     text-align: center;
-    /*margin: 5px 5px 5px 0;*/
+    // margin: 5px 5px 5px 0;
 
     a {
     display: block;
@@ -266,13 +185,115 @@ blockquote {
       fill: $link;
 
       &:hover {
-        fill: $link-hover;
+        fill: $link-hover-color;
       }
     }
   }
 }
 
 
+}*/
+
+
+
+
+
+
+/*.spacer {
+  display: block;
+  height: $spacing-unit;
+}*/
+
+/**
+ *  #### HERO BLOCKS ####
+ */
+/*.hero-header {
+  width: 100%;
+  line-height: $base-line-height * $base-font-size * 1.05;
+  background-color: $hero-bg;
+  padding: 2em 0;
+  margin: 0;
+  text-align: center;
 }
 
 
+.post-meta.subtitle {
+  font-weight: 500;
+}
+
+
+.post-meta.categories {
+  font-weight: 400;
+  
+
+}*/
+
+  
+/**
+ * Sleek labels by 
+ */
+
+/*.label {
+  padding: 0px 10px;
+  margin-bottom: 1rem;
+  display: inline-block;
+  line-height: 20px;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(83,0,83,0.8);
+  border: 2px solid rgba(83,0,83,0.5);
+  border-radius: 100px;
+  transition: all 0.2s ease;
+
+  &,
+  &:visited {
+    color: $border;
+  }
+
+  &:focus,
+  &:hover {
+    color: $platinum !important;
+    background-color: $border;
+    border: 2px solid $border;
+    text-decoration: none;
+  }
+} 
+
+
+.sleek-blog {
+  .label {
+    color: rgba(255,255,255,0.8);
+    border: 2px solid rgba(255,255,255,0.5);
+  }
+}*/
+
+
+/**
+ * Jekyll video embed partial by Nathan Lam, June 2, 2017
+ * Add this css for responsive embedded videos in your .css file. */
+
+/*.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+
+/**
+ * front page
+ */
+
+/*.post-link {
+  font-size: initial;
+} */

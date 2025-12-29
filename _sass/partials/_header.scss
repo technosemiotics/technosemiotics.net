@@ -1,0 +1,133 @@
+/** Site header 
+ * */
+.site-header {
+  position: relative;
+  width: 100%;
+  min-height: $spacing-unit * 1.865;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: $nav-background-color;
+  border-top: 5px solid $border-color;
+  border-bottom: 1px solid $border-color;
+}
+
+
+.site-title {
+  @include relative-font-size(1.225);
+  font-weight: 300;
+  /*letter-spacing: -1px;*/
+  letter-spacing: 0;
+  margin-bottom: 0;
+  float: left;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+
+
+.site-nav {
+  float: right;
+  border: none;
+  background-color: inherit;
+
+  label[for="nav-trigger"], #nav-trigger {
+    display: none;
+  }
+
+  .nav-item {
+    @include relative-font-size(0.75);
+    color: $nav-link-color;
+    font-weight: 400;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-right: $spacing-unit * 0.5;
+    }
+    &:hover {
+
+      text-decoration: none;
+    }
+  }
+
+  @include media-query($on-medium) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit * 0.6;
+    background-color: $background-color;
+    border-radius: 5px;
+    text-align: right;
+    z-index: 10;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 18px;
+      text-align: center;
+
+      &::before {
+        font-family: "Font Awesome 7 Free";
+        font-weight: 900;
+      }
+
+      > svg path {
+        fill: $border-color-03;
+      }
+    }
+
+    #nav-trigger {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f0c9";
+          font-size: 1.25em;
+        }
+      }
+      ~ .nav-items {
+        clear: both;
+        display: none
+      }
+      &:checked {
+      ~ label[for=nav-trigger] .menu-icon {
+        &::before {
+          content: "\f00d";
+          font-size: 1.5em;
+        }
+      }
+        ~ .nav-items {
+          display: block;
+          padding-bottom: 5px;
+          .nav-item {
+            margin-left: 20px;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+
+    .nav-item {
+      display: block;
+      margin-right: $spacing-unit * 0.5;
+      padding: 5px 0;
+      color: inherit; /* small screen dropdown reverse menu colour fix */
+      line-height: $base-line-height;
+    }
+  }
+}
+
