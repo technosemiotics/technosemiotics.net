@@ -10,7 +10,7 @@ The story of Long Island overpasses is one of the most typical examples brought 
 
 Depicting this case, _Misleading Innocence_ is a documentary where Langdon Winner, Bruno Latour and Steve Woolgar debate the mutual impact of society and technology.
 
-
+{% include youtube-player.html id="0u6zYcci_5w" %}
 
 
 Some researchers argue that there were other highways to the island that buses could access, and that parkway was a special type of road where buses weren’t allowed in any case, thus trying to show that this design choice isn’t racist per se.
