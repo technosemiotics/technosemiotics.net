@@ -4,12 +4,12 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col-1">
+      <div class="footer-col-3">
       {%- if site.author %}
         <ul class="contact-list">
 
           {% if site.author.orcid -%}
-            <li class="p-name">Maintained by <a href="{{ site.author.orcid }}">{{ site.author.name | escape }}</li>
+            <li class="p-name">Maintained by <a href="{{ site.author.orcid }}">{{ site.author.name | escape }}</a></li>
           {% else -%}
             <li class="p-name">Maintained by {{ site.author.name | escape }}</li>
           {% endif -%}
