@@ -17,20 +17,20 @@ $lavender-mist-2: #EFF0FC;
 $lavender-mist-3: #EEEFFC;
 $ghost-white: #E9EAF3;
 
-
-
 /**
  * COLOUR DEFAULTS
  */
 
 // Backgrounds
 $background-color: $lavender-mist;
+$body-background-color: $lavender-mist;
+$header-background-color: $coffee-bean;
+$nav-background-color: $coffee-bean;
+$footer-background-color: $lavender-mist;
 
 // Navbar
 $site-title-color: $platinum;
-$nav-background-color: $coffee-bean;
 $nav-link-color: $platinum;
-
 
 
 // Hero blocks
@@ -40,14 +40,24 @@ $hero-background-color: $thistle;
 // Text and headings
 $text-color: $midnight-violet;
 $heading-color: $coffee-bean;
-$blockquote: $deep-purple;
+
+// Blockquotes
 $blockquote-text-color: $deep-purple;
-
-
+$blockquote-border-color: $deep-purple;
 
 // Borders
 $border-color: $dark-magenta;
 $border-light: $thistle;
+
+// Category labels
+$label-text-color: $dark-magenta;
+$label-background-color: none;
+$label-border-color: $dark-magenta;
+$label-text-hover: $platinum;
+$label-background-hover: $dark-magenta;
+$label-border-hover: $dark-magenta;
+$grid-label-text-color: $coffee-bean;
+
 
 // Cards in grid
 $card-bg: $lavender-mist-2;
@@ -68,20 +78,21 @@ $footer-text-color: $text-color;
 $footer-link-color: $link-color;
 $footer-border-color: $border-color;
 
+
 // Sleek variables
 // adapted from Jekyll Sleek theme by Jan Czizikow
 
 $primary: #002c27 !default;
 $secondary: #ff6161 !default;
-$border: #ededed !default;
+$border: $border-color !default;
 $primary-light: #68a4f1;
 $reverse: #3c3d41 !default;
 $success: #8fd896 !default;
 $error: #ff6161 !default;
 
 
-$light-bg-color: $platinum;
-
+/*$light-bg-color: $platinum;*/
+$bg-color: $background-color;
 $button-dark: #00594F;
 $dark-light: #594f00;
 $outline: #dbdbdb;
@@ -92,7 +103,7 @@ $font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica N
 
 
 // Code
-$code-bg-color: #f6f8fa !default;
+$code-bg-color: $lavender-mist !default;
 $code-background-color: $code-bg-color;
 $code-text-color: #25292e !default;
 

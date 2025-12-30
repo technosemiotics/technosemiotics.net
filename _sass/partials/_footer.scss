@@ -1,11 +1,9 @@
+// SITE FOOTER
 
-
-/**
- * Site footer
- */
 .site-footer {
   border-top: 1px solid $footer-border-color;
   padding: $spacing-unit 0;
+  background-color: $footer-background-color;
 }
 
 .footer-heading {
@@ -77,6 +75,34 @@
   }
 }
 
+// Social links
+.social-media-list {
+  display: table;
+  margin: 0;
+  li {
+    float: left;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    margin: 5px 10px 5px 0;
+    &:last-of-type { margin-right: 0 }
+    a {
+      display: block;
+      padding: 0;
+
+      svg {
+      width: 1.4rem;
+      height:1.4rem;
+      fill: $link-color;
+
+      &:hover {
+        fill: $link-hover-color;
+      }
+    }
+    }
+  }
+}
+
 /* redesigned-memory added footer styles */
 
 .footer-nav {
@@ -85,33 +111,4 @@
   }
 }
 
-/* Footer social icons */
-.social-media-list {
-  margin: 0;
-
-  li {
-    float: left;
-    min-width: 1.5rem;
-    min-height: 1.5rem; 
-    text-align: center;
-    margin: 5px 5px 5px 0;
-
-    a {
-    display: block;
-    padding: 0;
-    border: none;
-
-    svg {
-      width: 1.4rem;
-      height:1.4rem;
-      fill: $link;
-
-      &:hover {
-        fill: $link-hover-color;
-      }
-    }
-  }
-}
-
-}
 

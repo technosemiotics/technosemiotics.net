@@ -10,14 +10,15 @@
 
 @import
   "base",             // Defines element resets.
+  "typography",
   "layout";           // Defines structure and style based on CSS selectors.
 
 @import
   "partials/home",
   "partials/header",    // Defines element resets.
   "partials/footer",    // Defines structure and style based on CSS selectors.
-  "partials/heroes",    // hero blocks
-  "partials/content-meta",
+  "partials/hero-blocks",    // hero blocks
+  "partials/labels",
   "partials/content",
   "partials/embeds"
 ;
@@ -26,11 +27,6 @@
 @import
   "partials/sleek-mixins",
   "partials/card";
-
-// Import pre-styling-overrides hook and style-partials.
-@import
-  "minima/custom-styles"     // Hook to override existing styles.
-;
 
 
 

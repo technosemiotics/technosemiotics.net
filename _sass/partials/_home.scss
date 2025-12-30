@@ -2,6 +2,9 @@
  * front page
  */
 
-.post-link {
-  font-size: initial;
-} 
+.home {
+  .post-link {
+    font-size: initial;
+    text-transform: uppercase;
+  } 
+}

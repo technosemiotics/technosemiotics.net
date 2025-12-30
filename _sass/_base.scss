@@ -21,15 +21,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
-  font-kerning: normal;
+  background-color: $body-background-color;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -120,61 +112,9 @@ li {
 
 
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  color: $heading-color;
-  font-weight: 500;
-}
 
 
 
-/**
- * Links
- */
-a {
-  color: $link-base-color;
-  text-decoration: none;
-
-  &:visited {
-    color: $link-visited-color;
-  }
-
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: underline $brand-color;
-    text-underline-offset: 3px;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
-}
-
-
-/**
- * Blockquotes
- */
-blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
-  padding-left: $spacing-unit * .5;
-  @include relative-font-size(1.05);
-  font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
-
-  i, em {
-    font-style: normal;
-  }
-}
 
 
 
@@ -314,6 +254,10 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+
+
+
 
 /* redesigned-memory added elements */
 .spacer {
