@@ -4,6 +4,14 @@
   border-top: 1px solid $footer-border-color;
   padding: $spacing-unit 0;
   background-color: $footer-background-color;
+
+  a {
+    color: $footer-link-color !important;
+    &:hover,
+    &:focus {
+      color: $footer-link-hover-color !important;
+    }
+  }
 }
 
 .footer-heading {
@@ -93,10 +101,10 @@
       svg {
       width: 1.4rem;
       height:1.4rem;
-      fill: $link-color;
+      fill: $footer-link-color;
 
       &:hover {
-        fill: $link-hover-color;
+        fill: $footer-link-hover-color;
       }
     }
     }

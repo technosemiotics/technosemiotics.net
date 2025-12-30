@@ -26,7 +26,17 @@ $background-color: $lavender-mist;
 $body-background-color: $lavender-mist;
 $header-background-color: $coffee-bean;
 $nav-background-color: $coffee-bean;
-$footer-background-color: $lavender-mist;
+
+// Borders
+$border-color: $dark-magenta;
+$border-light: $thistle;
+
+// footer 
+$footer-text-color: $thistle;
+$footer-link-color: $thistle;
+$footer-link-hover-color: $lavender-mist;
+$footer-border-color: $border-color;
+$footer-background-color: $coffee-bean;
 
 // Navbar
 $site-title-color: $platinum;
@@ -45,9 +55,7 @@ $heading-color: $coffee-bean;
 $blockquote-text-color: $deep-purple;
 $blockquote-border-color: $deep-purple;
 
-// Borders
-$border-color: $dark-magenta;
-$border-light: $thistle;
+
 
 // Category labels
 $label-text-color: $dark-magenta;
@@ -73,10 +81,7 @@ $link-base-color: $link-color;
 $link-visited-color: $tyrian-purple;
 $link-hover-color: $link-visited-color;
 
-// footer 
-$footer-text-color: $text-color;
-$footer-link-color: $link-color;
-$footer-border-color: $border-color;
+
 
 
 // Sleek variables
