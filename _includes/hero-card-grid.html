@@ -1,0 +1,19 @@
+<!-- posts grid. assign definition to posts before the include  -->
+{%- if posts.size > 0 -%}
+<div class="hero-card-grid">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {%- for post in posts -%}
+  <div class="hero-card">
+    
+    <h4>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h4>
+    {%- if site.minima.show_excerpts -%}
+      {{ post.excerpt | strip_html | truncatewords: 20 }}
+    {%- endif -%}
+  </div>
+  {%- endfor -%}
+</div>
+{%- endif -%}
