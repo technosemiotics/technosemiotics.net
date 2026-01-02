@@ -1,8 +1,11 @@
   {% if page.tags %}
     {% assign tags = page.tags %}
-    <span class="post-meta tags">
+    <span class="post-meta tags categories">
       {% for tag in tags %}
-        <a href="{{site.baseurl}}/tags/#{{tag|slugify}}" class="label"> {{ tag }} </a>
+        <a class="label">{{ tag }}</a>
+        {% comment %}
+        <a href="{{site.baseurl}}/tags/#{{tag|slugify}}" class="label"> {{ tag }} </a> <!-- hide links until further construction -->
+        {% endcomment %}
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span>
