@@ -1,4 +1,4 @@
 ---
 layout: home
-title: technosemiotics
+list_title: Latest posts and bookmarks
 ---
