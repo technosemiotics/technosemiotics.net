@@ -33,6 +33,10 @@
 .social-links {
   @include relative-font-size(0.9375);
   color: $footer-link-color;
+
+  div {
+    margin-bottom: 1rem;
+  }
 }
 
 .footer-col {

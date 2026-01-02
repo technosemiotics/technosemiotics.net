@@ -17,6 +17,10 @@ $lavender-mist-2: #EFF0FC;
 $lavender-mist-3: #EEEFFC;
 $ghost-white: #E9EAF3;
 
+$soft-periwinkle: #918EF4;
+$periwinkle: #B9B8EC !default;
+$lavender: #CDCDE4;
+
 /**
  * COLOUR DEFAULTS
  */
@@ -43,9 +47,7 @@ $site-title-color: $platinum;
 $nav-link-color: $platinum;
 
 
-// Hero blocks
-$hero-bg: $thistle;
-$hero-background-color: $thistle;
+
 
 // Text and headings
 $text-color: $midnight-violet;
@@ -55,6 +57,12 @@ $heading-color: $coffee-bean;
 $blockquote-text-color: $deep-purple;
 $blockquote-border-color: $deep-purple;
 
+// Hero blocks
+$hero-bg: $thistle;
+$hero-background-color: $thistle;
+$hero-title-color: $lavender-mist;
+$hero-heading-1: $sharp-magenta;
+$hero-heading-2: $soft-periwinkle;
 
 
 // Category labels
@@ -68,8 +76,8 @@ $grid-label-text-color: $coffee-bean;
 
 
 // Cards in grid
-$card-bg: $lavender-mist-2;
-$card-text: $midnight-violet;
+
+$card-thumb-background: $thistle;
 $card-background-color: $lavender-mist-2;
 $card-text-color: $midnight-violet;
 

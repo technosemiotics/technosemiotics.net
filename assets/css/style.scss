@@ -2,8 +2,9 @@
 ---
 
 @import
-  "partials/base-variables",
-  "partials/color-variables"
+  "variables/base-variables",
+  "variables/color-variables",
+  "partials/sleek-mixins"
 ;
 
 
@@ -11,6 +12,7 @@
 @import
   "base",             // Defines element resets.
   "typography",
+  "backgrounds",
   "layout";           // Defines structure and style based on CSS selectors.
 
 @import
@@ -25,7 +27,6 @@
 
 
 @import
-  "partials/sleek-mixins",
   "partials/card";
 
 

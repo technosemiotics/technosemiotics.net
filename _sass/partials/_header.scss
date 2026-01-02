@@ -57,13 +57,15 @@
     }
     &:hover {
       text-decoration: none;
+      color: $nav-link-color;
+      background-color: $nav-background-color;
     }
     a {
       text-decoration: none;
     }
   }
 
-  @include media-query($on-medium) {
+  @include media-query($on-large) {
     position: absolute;
     top: 9px;
     right: $spacing-unit * 0.6;
@@ -89,19 +91,19 @@
       text-align: center;
 
       &::before {
-        font-family: "Font Awesome 7 Free";
+        /*font-family: "Font Awesome 7 Free";*/
         font-weight: 900;
       }
 
       > svg path {
-        fill: $border-color-03;
+        fill: $nav-background-color;
       }
     }
 
     #nav-trigger {
       ~ label[for=nav-trigger] .menu-icon {
         &::before {
-          content: "\f0c9";
+          /*content: "\f0c9";*/
           font-size: 1.25em;
         }
       }
@@ -112,7 +114,7 @@
       &:checked {
       ~ label[for=nav-trigger] .menu-icon {
         &::before {
-          content: "\f00d";
+          /*content: "\f00d";*/
           font-size: 1.5em;
         }
       }

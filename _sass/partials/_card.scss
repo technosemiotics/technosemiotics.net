@@ -7,7 +7,7 @@
   min-height: 250px;
   border-radius: 4px;
   overflow: hidden;
-  background-color: $card-bg;
+  background-color: $card-background-color;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   margin-bottom: 2.25rem; // don't use % value see more: https://github.com/philipwalton/flexbugs/issues/86
   border-bottom: 0;
@@ -55,13 +55,13 @@
     position: relative;
     padding: 1.875rem 1.25rem 0.625rem;
     /*width: 100%;*/
-    color: $card-text;
+    color: $card-text-color;
     border-bottom: 0;
 
     &:focus,
     &:hover,
     &:visited {
-      color: $card-text;
+      color: $card-text-color;
       border-bottom: 0;
     }
   }
@@ -77,7 +77,7 @@
 
 .post-card__thumb {
   margin: 0;
-  background: $thistle;
+  background: $card-thumb-background;
   position: relative;
   overflow: hidden;
 

@@ -83,7 +83,7 @@ header {
 
 // Links
 
-.page-content a {
+.page-content a, .hero-rm a {
   color: $link-color;
   text-decoration: none;
   border-bottom: 1px dashed $link-color;

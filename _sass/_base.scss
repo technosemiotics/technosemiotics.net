@@ -265,3 +265,38 @@ table {
   height: $spacing-unit;
 }
 
+.spacer-clearfix {
+  display: block;
+  height: $spacing-unit;
+  width: 100%;
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+
+.float-right {
+  float:right;
+}
+.float-left {
+  float: left;
+}
