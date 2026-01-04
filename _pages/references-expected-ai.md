@@ -1,6 +1,6 @@
 ---
 title: References
-permalink: /references/
+permalink: /references/expected-ai/
 ---
 
 
