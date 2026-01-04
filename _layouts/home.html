@@ -3,7 +3,7 @@ layout: base
 ---
 <main class="home">
 
-<div class="hero-rm spacious lavender">
+<div class="hero-rm first lavender">
   <div class="container">
     <div class="hero-card-grid">
       <div class="hero-card-2"><p>Many discourses today portray technologies such as artificial intelligence systems (AIS) as something abstract and immaterial. Techno-utopian imaginaries obscure the global material implications of AIS, benefitting from the anthropomorphic framing and hiding the true cost of AIS. By choosing to value AIS as anthropomorphic entities, we are simultaneously choosing to devalue the people, cultures and environments implicated in AIS as envirotechnical systems.</p>
@@ -30,7 +30,7 @@ layout: base
 
       {%- if posts.size > 0 -%}
         {%- if page.list_title -%}
-          <h2 class="post-list-heading center">{{ page.list_title }}</h2>
+          <h1>{{ page.list_title }}</h1>
         {%- endif -%}
         <ul class="post-list">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
