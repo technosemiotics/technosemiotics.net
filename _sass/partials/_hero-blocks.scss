@@ -18,6 +18,10 @@
   padding: 3rem 0;
   margin: 0;
 
+  img {
+    width: 100%;
+  }
+
   @include breakpoint($md) {
     img {
       max-width: 465px;
@@ -31,12 +35,14 @@
   }
 }
 
+
+
 .spacious {
   padding: 5rem 0;
 }
 
 .hero-title-rm {
-  font-size: $base-font-size * 3.05 !important;
+  font-size: $base-font-size * 2.05 !important;
   line-height: $base-line-height * $base-font-size * 2.05;
   text-transform: uppercase;
   text-align: center;
