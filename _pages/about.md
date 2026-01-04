@@ -4,7 +4,12 @@ title: About
 permalink: /about/
 ---
 
-The motivation behind this website and network is to critically engage with the discourse on technology, with a specific interest in artificial intelligence (AI), automation, and the global environmental impact of technology in general.
+
+The initial motivation behind this website and network was to critically engage with the discourse on technology, with a specific interest in artificial intelligence (AI) and automation. Today, the concept of AI is used to designate so many different processes, systems, devices, dreams and ideas that it almost loses any real meaning. The discourse on AI is particularly saturated with reified metaphors that influence connotations and delimit the understanding and the adoption of technologies in society. Therefore, even academic papers often consider it necessary or inevitable to dwell on the comparison between human and machine intelligence.
+
+###### Is this comparison justified?
+
+Earlier, AI has been seen as applied semiotics because it ventures to manipulate symbols or signs (Meunier 1989). At the same time, all computer systems—including AI—are essentially semiotic technologies, allowing for human cognition and agency to be extended, delegated and offloaded in various manners and at different scales (Irvine 2022).
 
 
 ## The beginnings
@@ -19,3 +24,4 @@ Thank you for visiting!
 
 ~ Auli Viidalepp
 
+The motivation behind this website and network is to critically engage with the discourse on technology, with a specific interest in artificial intelligence (AI), automation, and the global environmental impact of technology in general.
