@@ -42,8 +42,8 @@ minima:
   #   should be rendered.
   nav_pages:
     - _pages/about.md
-    - _pages/events.md
     - _pages/resources.md
+    - _pages/films.md
     - _pages/concepts.md
     - _pages/references-envtech-ai.md
     - _pages/critical-ai-scholars.md
@@ -85,6 +85,9 @@ collections:
   concepts:
     output: true
     permalink: /concepts/:name/
+  films:
+    output: true
+    permalink: /films/:name/
 
 
 defaults:
@@ -117,6 +120,12 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "films"
+    values:
+      layout: "film"
 
 
 
