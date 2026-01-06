@@ -1,0 +1,56 @@
+{% comment %}
+<!-- cards layout adapted from Jekyll Sleek theme by Jan Czizikow -->
+{% endcomment %}
+
+<div class="film-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+  {% if film.categories %}
+    {% assign categories = film.categories %}
+    <span class="film-card__label">
+      {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugify}}" class="label"> {{ category }} </a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
+  {% endif %}
+
+    <a href="{{ film.url | relative_url }}">
+
+    {% if film.featured-img %}
+      <figure class="film-card__thumb">
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{film.featured-img}}"
+          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{film.featured-img}}"
+          class="lazyload blur"
+          alt="{{film.title}}"
+        />
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{film.featured-img}}" alt="{{ film.title }}"></noscript>
+      </figure>
+    {% else %}
+      <figure class="film-card__thumb">
+        <div class="dark-bg"></div>
+      </figure>
+    {% endif %}
+  </a>
+
+    <a class="film-card__inner" href="{{ film.url | relative_url }}">
+
+    <div class="film-card__header">
+      <h5>{{ film.title | strip_html | truncate: 190 }}</h5>
+
+      <span class="film-card__meta">
+        <time>{{ film.year }}</time>
+                    <span class="bullet-divider">•</span>
+            {%- for author in film.author %}
+            <span class="meta-label" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+            {% endfor %}
+      </span>
+    </div>
+    {% if film.summary %}
+      <p>{{ film.summary | strip_html | truncatewords:40 }}</p>
+    {% else %}
+      <p>{{ film.content | strip_html | truncatewords: 40 }}</p>
+    {% endif %}
+  </a>
+</div>
