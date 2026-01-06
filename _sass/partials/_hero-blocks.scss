@@ -33,6 +33,13 @@
       max-width: 365.63px;
     }
   }
+  &.film-navigation {
+    padding: 0;
+
+    .controls__inner {
+      border-top: none;
+    }
+  }
 }
 
 
@@ -173,7 +180,76 @@
 
 
 
+// hero content divs floaters
+.hero-left, .hero-left-1, .hero-left-2 {
+  float: left;
+  margin-right: 3.125%;
+}
+.hero-right, .hero-right-1, .hero-right-2 {
+  float: right;
+}
+.hero-left-2, .hero-right-2, .hero-66 {
+  /*width: 100%;*/
+  width: 65.625%;
+  position: relative;
 
+  @include breakpoint($lg) {
+    width: 65.625%;
+    margin-right: 3.125%;
+
+/*    &:nth-child(2n+2) {
+      margin-right: 3.125%;
+    }*/
+
+/*    &:last-of-type,
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }*/
+  }
+
+  @include breakpoint($md) {
+    width: 48.4375%;
+    /*max-width: 48.4375%;*/
+    margin-right: 3.125%;
+
+    &:last-of-type,
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+}
+
+.hero-left-1, .hero-right-1, .hero-33 {
+  /*width: 100%;*/
+  width: 31.25%;
+  position: relative;
+
+  @include breakpoint($lg) {
+    width: 31.25%;
+    margin-right: 3.125%;
+
+/*    &:nth-child(2n+2) {
+      margin-right: 3.125%;
+    }*/
+
+/*    &:last-of-type,
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }*/
+  }
+
+  @include breakpoint($md) {
+    width: 48.4375%;
+    /*max-width: 48.4375%;*/
+    margin-right: 3.125%;
+
+    &:last-of-type,
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+
+}
 
 
 

@@ -1,0 +1,71 @@
+---
+layout: base
+---
+<div itemscope itemtype="https://schema.org/Film">
+  <header class="hero-rm thistle">
+    <div class="wrapper">
+      <div class="hero-left-1">
+        <div class="image">
+          <img class="featured" src="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{page.featured-img}}" alt="{{ page.title }}" />
+        </div>
+      </div>
+
+      <div class="hero-right-2">
+        <div class="text">
+          {%- include categories.html -%}
+          <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+          {% if page.subtitle %}
+          <div class="post-meta subtitle">{{ page.subtitle | escape }}</div>
+          {% endif %}
+
+          <div class="post-meta">
+            <span class="meta-label">{{ page.year }}</span>
+            <span class="bullet-divider">•</span>
+            {%- for author in page.author %}
+            <span class="meta-label" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+            {% endfor %}
+            {% if page.website %}
+            <span class="bullet-divider">•</span>
+            <span class="meta-label" itemprop="sameAs"><a href="{{ page.website }}">website &raquo;</a></span>
+            {% endif %}
+          </div>
+        </div>
+        <div class="spacer"></div>
+        <div>
+          {% if page.tagline %}
+          <div class="post-meta subtitle">{{ page.tagline | escape }}</div>
+          {% endif %}
+          <p>{{ page.summary }}</p>
+        </div>
+      </div>
+      <!-- <div class="spacer-clearfix"></div> -->
+        
+
+    </div>
+  </header>
+</div>
+<!-- HERO PERIWINKLE + CONTAINER -->
+  <div class="hero-rm soft-periwinkle film-navigation">
+    <div class="wrapper">
+      {%- include post-navigation.html -%}
+    </div>
+  </div> 
+<!-- ///END HERO PERIWINKLE + CONTAINER -->
+  
+
+
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+        <div class="post-content" itemprop="description">
+          {{ content }}
+        </div>
+        {%- include tags.html -%}
+        
+      </article>
+    </div>
+  </main>
+</div>
