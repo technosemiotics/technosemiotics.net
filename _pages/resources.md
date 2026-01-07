@@ -28,6 +28,8 @@ List of references used throughout the site.
 
 [Technosemiotics: AI & Society Nextbook »](https://nextbook.technosemiotics.eu/)
 
+[New Media and Technosemiotics modules at Palacký University Olomouc »](https://cjhey.github.io/crnm-home/)
+
 ---
 
 # Similar projects elsewhere
