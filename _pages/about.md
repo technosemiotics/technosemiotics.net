@@ -14,14 +14,12 @@ Earlier, AI has been seen as applied semiotics because it ventures to manipulate
 
 ## The beginnings
 
-This repository started as a spinoff from one winter school on AI and society. I wanted to offer further opportunity to follow and engage in the discourse that has become the focus of my research—at the intersection of technology, society, and semiotics, on my own terms. Therefore, this site aims to be a resource and study centre, as well as a social network. Technically, it also functions as part of the Fediverse. It is a project under development and it will take a while to assemble the knowledge and references gathered over several years of my PhD studies. In time, there will be online courses on semiotics, AI, society, social constructionism and other related topics.
+This repository started as a spinoff from the [2023 winter school on AI and society](https://winterschool2023.technosemiotics.eu/) held at Palacký University Olomouc. I wanted to offer further opportunity to follow and engage in the discourse that has become the focus of my research -- at the intersection of technology, society, and semiotics, on my own terms. Therefore, this site strives to be a resource and study centre, as well as a research network. It is a project under development and it will take a while to assemble the knowledge and references gathered over several years of my PhD studies. In time, there will be online courses on semiotics, technology, society, social constructionism and the environment.
 
-For now, it is an academically-oriented network used to facilitate communication in and around the courses on technology and society that I have taught or am teaching in the near future. If you feel interested in and like-minded regarding the topics discussed and displayed here, you are welcome to get in touch.
+For now, it is an academically-oriented network used to facilitate communication in and around the courses on technosemiotics that I have taught or am teaching in the near future. If you feel interested in and like-minded regarding the topics discussed and displayed here, you are welcome to get in touch.
 
 You can read more about my interests and activities on [my researcher website](https://auliviidalepp.ee) and find my most up-to-date affiliations and contacts in [my ORCiD profile](https://orcid.org/0000-0002-6206-5681).
 
 Thank you for visiting!
 
 ~ Auli Viidalepp
-
-The motivation behind this website and network is to critically engage with the discourse on technology, with a specific interest in artificial intelligence (AI), automation, and the global environmental impact of technology in general.
