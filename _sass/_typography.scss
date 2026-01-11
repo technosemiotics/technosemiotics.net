@@ -103,6 +103,7 @@ header {
 
 
 
+
 //reset link
 /*a {
   color: $link-color;
@@ -140,8 +141,6 @@ blockquote {
     font-style: normal;
   }
 }
-
-
 
 
 
@@ -202,9 +201,29 @@ pre {
 }
 
 
+// Text colors 
 
 
+.white-text {
+  a, a:visited, a:hover, p, h1, h2, h3, h4, h5, blockquote {color: #fff !important;}
+}
 
+.platinum-text {
+  a, a:visited, a:hover, p, h1, h2, h3, h4, h5, blockquote {color: $platinum !important;}
+}
+
+.coffee-bean-text {
+  a, a:visited, a:hover, p, h1, h2, h3, h4, h5, blockquote {color: $coffee-bean !important;}
+}
+
+.thistle-text {
+  a, a:visited, a:hover, p, h1, h2, h3, h4, h5, blockquote {color: $thistle !important;}
+}
+.lavender-mist-text {
+  a, a:visited, a:hover, p, h1, h2, h3, h4, h5, blockquote {color: $lavender-mist !important;}
+}
+
+}
 
 
 
