@@ -62,7 +62,7 @@ permalink: /critical-ai-scholars/
 
 [Algorithmic Justice League](https://www.ajl.org/)
 
-
+[Planetary AI: Networks, Actors, and Markets](https://planetaryai.net/) An UKRI-funded research project (2024-2028) to study data work value chains and socio-ecological impacts of data centres.
 
 [Women in AI Ethics](https://medium.com/women-in-ai-ethics) Medium publication
 
