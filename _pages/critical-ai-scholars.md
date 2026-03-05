@@ -29,7 +29,7 @@ permalink: /critical-ai-scholars/
 - [Shoshana Zuboff](https://shoshanazuboff.com/)
 
 
-## research centers & projects
+## research centers
 
 [Distributed AI Research Institute (DAIR)](https://www.dair-institute.org/)
 
@@ -37,12 +37,15 @@ permalink: /critical-ai-scholars/
 
 [Institute for Science and Ethics (IWE, Bonn)](https://www.iwe.uni-bonn.de/en), led by Aimee van Wynsberghe, focuses on developing research and policy guidelines for the green, proportionate and sustainable development and use of AI
 
+[Center for Digital Dignity](https://www.fordigitaldignity.com/)
+
+## research projects
+
+[Planetary AI: Networks, Actors, and Markets](https://planetaryai.net/) An UKRI-funded research project (2024-2028) to study data work value chains and socio-ecological impacts of data centres
+
 [Knowing Machines](https://knowingmachines.org/about) a research project tracing the histories, practices, and politics of machine learning systems. Led by Kate Crawford
 
 [Histories of Artificial Intelligence: A Genealogy of Power](https://www.ai.hps.cam.ac.uk/) (Mellon Sawyer sminar at the University of Cambridge that took place from May 2020 to December 2021)
-
-[Center for Digital Dignity](https://www.fordigitaldignity.com/)
-
 
 ## academic journals
 
@@ -58,11 +61,9 @@ permalink: /critical-ai-scholars/
 
 
 
-## projects & groups
+## groups
 
 [Algorithmic Justice League](https://www.ajl.org/)
-
-[Planetary AI: Networks, Actors, and Markets](https://planetaryai.net/) An UKRI-funded research project (2024-2028) to study data work value chains and socio-ecological impacts of data centres.
 
 [Women in AI Ethics](https://medium.com/women-in-ai-ethics) Medium publication
 
