@@ -15,7 +15,20 @@ layout: base
   </div>
 </div> 
 
+<!-- CONCEPTS GRID -->
+  <div class="hero-rm periwinkle">
+    <div class="hero-wrapper">
 
+{% assign posts = site.concepts %}
+
+        <h2 class="hero-title-rm">concepts</h2>
+
+
+  {% include hero-card-grid.html %}
+
+    </div>
+  </div> 
+<!-- /// END CONCEPTS GRID -->
 
 <!-- posts and bookmarks list -->
 <main class="page-content" aria-label="Content">  
@@ -54,19 +67,6 @@ layout: base
 </main>
 
 
-<!-- CONCEPTS GRID -->
-  <div class="hero-rm periwinkle">
-    <div class="hero-wrapper">
-
-{% assign posts = site.concepts %}
-
-        <h2 class="hero-title-rm">concepts</h2>
-
-
-  {% include hero-card-grid.html %}
-<!-- /// END CONCEPTS GRID -->
-    </div>
-  </div> 
 
 
 </main>
