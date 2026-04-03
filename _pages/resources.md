@@ -36,6 +36,10 @@ List of references used throughout the site.
 
 This is a list of projects and websites with similar aims and approaches to the critical study of AI, maintained and supported by other individuals and organizations elsewhere in the web.
 
+#### [DecolonizAI](https://en.decolonizai.com/)
+
+DecolonizAI is a pilot platform that aims to contribute to the debate of human interaction with technologies from a decolonial perspective. 
+
 #### [AI myths](https://www.aimyths.org/)
 
 Myths, misconceptions & inaccuracies render AI systems opaque. Check out the resources we provide to tackle 8 of the most common myths about ‘artificial intelligence.’
