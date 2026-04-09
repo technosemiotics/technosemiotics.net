@@ -25,23 +25,10 @@ layout: base
   </div>
 </div> 
 
-<!-- CONCEPTS GRID -->
-  <div class="hero-rm">
-    <div class="hero-wrapper">
 
-{% assign posts = site.concepts %}
-
-        <h2 class="hero-title-rm">concepts</h2>
-
-
-  {% include hero-card-grid.html %}
-
-    </div>
-  </div> 
-<!-- /// END CONCEPTS GRID -->
 
 <!-- posts and bookmarks list -->
-<main class="page-content periwinkle" aria-label="Content">  
+<main class="page-content" aria-label="Content">  
   <div class="wrapper">
     <div class="home">
       {% if site.paginate %}
@@ -75,8 +62,23 @@ layout: base
     </div>
   </div>
 </main>
+<!-- /// END posts and bookmarks list -->
 
 
+<!-- CONCEPTS GRID -->
+  <div class="hero-rm periwinkle">
+    <div class="hero-wrapper">
+
+{% assign posts = site.concepts %}
+
+        <h2 class="hero-title-rm">concepts</h2>
+
+
+  {% include hero-card-grid.html %}
+
+    </div>
+  </div> 
+<!-- /// END CONCEPTS GRID -->
 
 
 </main>
