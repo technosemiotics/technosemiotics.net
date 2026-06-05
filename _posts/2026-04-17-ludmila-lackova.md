@@ -9,7 +9,7 @@ featured-img:
 
 Technosemiotics online talk by Ľudmila Lacková on how life-long interaction with technology influences our time perception, from a cognitive linguistics perspective. 
 
-{% include youtube-player.html id="UgxK7-WpKY" %}
+{% include youtube-player.html id="VUgxK7-WpKY" %}
 
 Ľudmila Lacková is an Associate Dean and Assistant Professor in the Semiotics program at Charles University in Prague and Program Director in Linguistics at Palacký University in Olomouc. She is an executive member of the International Society for Biosemiotic Studies (ISBS) and Director of the International Semiotics Institute (ISI). <!--more-->She serves as Editor-in-Chief of Linguistic Frontiers (De Gruyter Open/Sciendo), Associate Editor of Biosemiotics (Springer), and Associate Editor of the book series Numanities: Arts and Humanities in Progress (Springer). Her latest monograph Language of Life: A Peircean Approach to Living Organisms (2025) explores applications of Peircean semeiotic in biology and linguistics. 
 
