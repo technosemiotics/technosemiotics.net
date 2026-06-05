@@ -1,11 +1,12 @@
-—--
+---
 title: "Biosemiotics and Artificial Intelligence"
 subtitle: "Emerging Pathways in Animal Communication Research"
 permalink: /nicola-zengiaro-animal-communication-research/
 categories: [talks, videos, Technosemiotics Seminars 2026]
 tags: [concerns about AI, biosemiotics]
 featured-img: 
-—--
+author: Nicola Zengiaro
+---
 
 
 {% include youtube-player.html id="VrVwgSIomdY" %}

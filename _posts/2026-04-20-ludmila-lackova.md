@@ -4,7 +4,8 @@ subtitle: "Digital Media and the New Spatiality of Temporal Experience"
 permalink: /ludmila-lackova-digital-temporal-experience/
 categories: [talks, videos, Technosemiotics Seminars 2026]
 tags: [cognitive semiotics, digital media, time perception]
-featured-img: 
+featured-img:
+author: Ľudmila Lacková
 ---
 
 
