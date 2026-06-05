@@ -1,11 +1,10 @@
 ---
-title: "Is Time Still Linear?"
+title: "Ľudmila Lacková: Is Time Still Linear?"
 subtitle: "Digital Media and the New Spatiality of Temporal Experience"
 permalink: /ludmila-lackova-digital-temporal-experience/
 categories: [talks, videos, Technosemiotics talks 2026]
 tags: [cognitive semiotics, digital media, time perception]
 featured-img:
-author: Ľudmila Lacková
 ---
 
 Technosemiotics online talk by Ľudmila Lacková on how life-long interaction with technology influences our time perception, from a cognitive linguistics perspective. 
