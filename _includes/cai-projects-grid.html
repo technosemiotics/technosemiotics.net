@@ -1,0 +1,21 @@
+<div class="hero-rm deep-space-blue">
+  <div class="hero-wrapper platinum-text">
+  	<div class="hero-title center">
+  		<h1 id="similar-projects-elsewhere">Critical AI networks and projects elsewhere</h1>
+  	</div>
+  	
+  	<div class="resource-list">
+			{% for item in site.data.resources %}
+      <div class="resource-item grid-four">
+        <div class="image">
+        	<a href="https://{{ item.www }}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/logos/{{ item.logo }}" /></a>
+        		<h5>{{ item.name }}</h5>
+          <p>{{ item.desc}}</p>
+          <p><a href="https://{{ item.www }}/">{{item.www}}&nbsp;&raquo;</a></p>
+        </div>
+      </div>
+			{% endfor %}
+    </div>
+
+   </div>
+ </div>

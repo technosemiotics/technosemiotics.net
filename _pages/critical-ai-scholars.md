@@ -2,9 +2,10 @@
 title: research(ers) in critical ai
 title_nav: critical ai
 layout: page
-modified_date: 2026-01-01
+modified_date: 2026-06-15
 categories: Resources
 permalink: /critical-ai-scholars/
+cai: true
 ---
 
 

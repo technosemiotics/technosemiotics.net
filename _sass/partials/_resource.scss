@@ -1,0 +1,106 @@
+
+.resource-list, .project-grid {
+  padding-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+
+  @include breakpoint($md) {
+    padding-top: 5em;
+  }
+}
+
+.resource-item, .project-card { 
+  display: block;
+  position: relative;
+  width: 100%;
+  /*min-height: 350px;*/
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 2.25rem; 
+
+  a,
+  a:hover,
+  a:focus,
+  &:hover,
+  &:focus {
+    border-bottom: 0;
+    /*box-shadow: 0 2px 40px 0 hsla(232, 8%, 63%, .3);*/
+  }
+
+  .image {
+    /*background-color: $stormy-teal;*/
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  img {
+  min-height: 150px;
+  padding-bottom: 1rem;
+  }
+}
+
+.grid-four, 
+.grid-five {
+    @include breakpoint($xs) {
+    width: 48.4375%;
+    margin-right: 3.125%;
+
+    &:last-of-type,
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+
+    @include breakpoint($md) {
+    width: 31.25%;
+    margin-right: 3.125%;
+
+    &:nth-child(2n+2) {
+      margin-right: 3.125%;
+    }
+
+    &:last-of-type,
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }
+  }
+}
+
+.grid-four {
+    @include breakpoint($xl) {
+    width: 22%;
+    margin-right: 4%;
+
+    &:nth-child(2n+2),
+    &:nth-child(3n+3) {
+      margin-right: 4%;
+    }
+
+    &:last-of-type,
+    &:nth-child(4n+4) {
+      margin-right: 0;
+    }
+  }
+}
+
+.grid-five { 
+  @include breakpoint($xl) {
+    width: 18.25%;
+    margin-right: 2.1875%;
+
+    &:nth-child(2n+2),
+    &:nth-child(3n+3) {
+      margin-right: 2.1875%;
+    }
+
+    &:last-of-type,
+    &:nth-child(5n+5) {
+      margin-right: 0;
+    }
+  }
+ }
+
+

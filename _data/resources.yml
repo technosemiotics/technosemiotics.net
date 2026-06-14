@@ -1,0 +1,67 @@
+- name: DecolonizAI
+  www: en.decolonizai.com
+  logo: decolonizai.png
+  desc: A pilot platform contributing to the debate of human interaction with technologies from a decolonial perspective.
+
+
+- name: The DAIR Institute
+  www: dair-institute.org
+  logo: dair.svg
+  desc: An interdisciplinary and globally distributed AI research institute
+
+- name: Center for Digital Dignity
+  www: www.fordigitaldignity.com
+  logo: DD_Center.png
+  desc: A research initiative to dissect complex relationship between online media and political participation, and advance critical inquiry on the political impacts of digital media.
+
+- name: Algorithmic Justice League
+  www: www.ajl.org
+  logo: AJL.png
+  desc: An organization that combining art and research to illuminate the social implications and harms of artificial intelligence.
+
+- name: AI Myths
+  www: aimyths.org
+  logo: aimyths.jpg
+  desc: Myths, misconceptions and inaccuracies that render AI systems opaque.
+
+- name: AI Now Institute
+  www: ainowinstitute.org
+  logo: ai-now-white.svg
+  desc: n independent research institute providing expert analysis on AI in the public interest.
+
+- name: Speculative Friction in AI design and governance
+  www: speculativefriction.org
+  logo: speculativefriction.jpg
+  desc: A project and a community exploring how (un)productive friction shapes our interactions with AI systems
+
+
+- name: Institute for Science and Ethics (IWE)
+  www: www.iwe.uni-bonn.de
+  logo: institute_for_science_and_ethics_logo.jpg
+  desc: A research unit at the University of Bonn contributing to an ethical reflection of current developments in medicine, science, and technology
+
+- name: Knowing Machines
+  www: knowingmachines.org
+  logo: knowing-machines.svg
+  desc: A research project tracing the histories, practices, and politics of how machine learning systems are trained to interpret the world.
+
+
+- name: Critical AI
+  www: criticalai.org
+  logo: critical-ai.png
+  desc: A research network and a blog hosted by Rutgers University, and a new interdisciplinary journal published by Duke University Press
+
+- name: Histories of AI
+  www: www.ai.hps.cam.ac.uk
+  logo: hoai.jpg
+  desc: Histories of AI- A Genealogy of Power was a Mellon Sawyer Seminar series hosted at the University of Cambridge from May 2020 to December 2021.
+
+- name: 
+  www: alltechishuman.org
+  logo: ATIHLogoWhiteStacked.svg
+  desc: A non-profit that is expanding & improving the Responsible Tech ecosystem so we can better tackle thorny tech & society issues.
+
+- name: Not My Robots
+  www: notmyrobot.home.blog
+  logo: notmyrobots.jpg
+  desc: Website that collects misleading, unrealistic and terrible images of robots, bots, and AI
