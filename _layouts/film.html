@@ -38,6 +38,13 @@ layout: base
           <div class="post-meta subtitle">{{ page.tagline | escape }}</div>
           {% endif %}
           <p>{{ page.summary }}</p>
+
+            {% if page.rt %}
+            <div class="post-meta">
+              <span class="meta-label" itemprop="sameAs"><a href="{{ page.rt }}" class="tomato" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/assets/logos/Rotten_Tomatoes.svg" /></a></span>
+            </div>
+            {% endif %}
+
         </div>
       </div>
       <!-- <div class="spacer-clearfix"></div> -->

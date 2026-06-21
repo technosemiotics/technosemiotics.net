@@ -57,6 +57,20 @@
   font-size: 0.8rem;
   color: inherit;
 
+  a.tomato {
+    border-bottom: none;
+
+    img {
+    width: 2.5em;
+    height: 2.5em;
+    filter: grayscale(100%);
+
+    &:hover {
+      filter: none;
+    }  
+  }
+  }
+
   .meta-label {
     font-weight: 200;
   }
