@@ -9,3 +9,5 @@ technosemiotics website
 
 [Jekyll video embed partial by Nathan Lam »](https://github.com/nathancy/jekyll-embed-video)
 
+
+Colour palettes from [Coolors generator »](https://coolors.co/generate)
