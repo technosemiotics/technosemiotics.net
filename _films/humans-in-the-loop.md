@@ -6,6 +6,7 @@ author: Aranya Sahay
 featured-img: poster-humans-in-the-loop.jpg
 categories: [Indigenous, Drama, AI, Data work]
 youtube_id: t0bB5X98TrQ
+rt: "https://www.rottentomatoes.com/m/humans_in_the_loop"
 ---
 
 {% include youtube-player.html id="t0bB5X98TrQ" %}
