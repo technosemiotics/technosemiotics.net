@@ -26,6 +26,4 @@ Text source: [www.navajonationusa.com](https://www.navajonationusa.com)
 
 ## Full movie
 
-*Note:*
-
 {% include youtube-player.html id="FTCn1jMx9co" %}

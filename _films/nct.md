@@ -11,10 +11,12 @@ youtube_id: i8JKuvbZQBY
 
 {% include youtube-player.html id="i8JKuvbZQBY" %}
 
-## Comments and reflections
+## Information and reflections
 
 - [Their Code Remained Unbroken: Navajo Code Talkers in their Own Words](https://sandiegohistory.org/codetalkers/) - event post by San Diego History Center
 - [American Indian Code Talkers](https://www.nationalww2museum.org/war/articles/american-indian-code-talkers) by The National WWII Museum, New Orleans
+- [Navajo Code Talkers: A Guide to First-Person Narratives in the Veterans History Project](https://guides.loc.gov/navajo-code-talkers) at the Library of Congress
+
 
 ## Full movie
 
