@@ -18,3 +18,11 @@ youtube_id: t0bB5X98TrQ
 [On Humans in the Loop: In Conversation with Aranya Sahay,](https://asapconnect.in/post/843/singlestories/on-humans-in-the-loop) by Koyna Tomar. ASAP Art, Feb 21, 2025.
 
 [Humans in the Loop: Aranya Sahay’s Film Explores AI, Ethics, and Adivasi Labor](https://www.medianama.com/2025/09/223-humans-in-the-loop-aranya-sahay-ai-ethics-adivasi-labor/) by Sharveya Parasnis. Medianama, September 16, 2025.
+
+
+## Reflections
+
+#### Humans in the Loop: How Adivasi Women From Jharkhand are Shaping Global AI. -- Interview with Aranya Sahay
+
+
+{% include youtube-player.html id="P3udEYy_cF4" %}
