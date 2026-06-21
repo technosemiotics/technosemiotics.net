@@ -3,7 +3,7 @@ title: Model collapse and the semiosphere
 permalink: /model-collapse-and-the-semiosphere/
 categories: Bookmarks
 featured-img: sleek
-tags: [AI, information, semiosphere, semiotics]
+tags: [AIS, information, semiosphere, semiotics]
 author: Auli Viidalepp
 ---
 

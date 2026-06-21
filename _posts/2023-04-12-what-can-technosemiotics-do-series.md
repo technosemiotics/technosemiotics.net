@@ -3,7 +3,7 @@ title: "What can technosemiotics do?"
 subtitle: Online discussion series on semiotics, technology and society
 featured-img: shane-rounce-205187
 categories: [Technosemiotics seminars 2023] 
-tags: [AI, technology and society]
+tags: [AIS, technology and society]
 permalink: /what-can-technosemiotics-do/
 author: Auli Viidalepp
 ---
