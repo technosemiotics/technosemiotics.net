@@ -2,7 +2,7 @@
 title: "Navajo Code Talkers: A Journey of Remembrance"
 summary: "A documentary featuring six original Navajo Code Talkers remembering and revisiting the locations where they lived, trained and fought."
 year: 2017
-author: George A. Colburn
+director: George A. Colburn
 featured-img: NCT.jpg
 categories: [Documentary, Diné, WWII, Code Talkers]
 website: "https://www.thenavajocodetalkers.com/"

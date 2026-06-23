@@ -3,7 +3,7 @@ title: "Navajo Nation USA"
 tagline: "A Legacy of Uranium between the Sacred Mountains"
 summary: "From 1944 to 1986, nearly 30 million tons of uranium ore were extracted from Navajo lands under leases with the Navajo Nation. Many Navajo people worked the mines, often living and raising families in close proximity to the mines and mills. Although the mines are no longer operational, they were never properly closed and capped. Consequently, today, a legacy of uranium contamination remains, including over 500 abandoned uranium mines (AUMs) as well as homes and water sources with elevated levels of radiation."
 year: 2023
-author: Deren Abram
+director: Deren Abram
 featured-img: navajo-nation-usa.jpg
 categories: [Documentary, Navajo]
 vimeo_id: 846012768

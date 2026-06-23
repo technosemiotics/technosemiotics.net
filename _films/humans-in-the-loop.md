@@ -2,7 +2,7 @@
 title: "Humans in the Loop"
 summary: "A single mother from the Oraon tribe balances training AI systems and reconnecting with her roots, while her pre-teen daughter struggles to accept their new life away from the city."
 year: 2025
-author: Aranya Sahay
+director: Aranya Sahay
 featured-img: poster-humans-in-the-loop.jpg
 categories: [Indigenous, Drama, AI, Data work]
 youtube_id: t0bB5X98TrQ

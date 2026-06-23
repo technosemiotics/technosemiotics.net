@@ -2,7 +2,7 @@
 title: "Frontera verde (Green Frontier)"
 summary: "When a young Bogotá-based detective gets drawn into the jungle to investigate four femicides, she uncovers magic, an evil plot and her own true origins."
 year: 2019
-author: Ciro Guerra, Jacques Toulemonde, Laura Mora
+director: Ciro Guerra, Jacques Toulemonde, Laura Mora
 featured-img: frontera-verde.jpg
 categories: [Drama, Crime, Indigenous]
 youtube_id: Bp9yejKb-QY

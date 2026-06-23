@@ -21,9 +21,9 @@ layout: base
           <div class="post-meta">
             <span class="meta-label">{{ page.year }}</span>
             <span class="bullet-divider">•</span>
-            {%- for author in page.author %}
-            <span class="meta-label" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- for director in page.director %}
+            <span class="meta-label" itemprop="director" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ director }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
             {% endfor %}
             {% if page.website %}

@@ -40,9 +40,9 @@
       <span class="film-card__meta">
         <time>{{ film.year }}</time>
                     <span class="bullet-divider">•</span>
-            {%- for author in film.author %}
-            <span class="meta-label" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- for director in film.director %}
+            <span class="meta-label" itemprop="director" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ director }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
             {% endfor %}
       </span>
