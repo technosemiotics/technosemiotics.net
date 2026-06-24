@@ -2,33 +2,70 @@
 // Site-specific colour variables
 
 /* colours */
-$platinum: #eef0f2ff;
-$coffee-bean: #251101ff;
+$platinum: #eef0f2ff; // warm white
+$ghost-white: #E9EAF3; // warmer white
+$lavender-mist: #E7E8F3; // almost the same
+$lavender-mist-2: #EFF0FC; // colder white
+$lavender-mist-3: #EEEFFC; // almost similar
 
-$sharp-magenta: #8b008b;
-$tyrian-purple: #66023C;
-$dark-magenta: #530053;
-$deep-purple: #521945ff;
-$midnight-violet: #361f27ff;
+$coffee-bean: #251101ff; // dark saturated brown
+$midnight-violet: #361f27ff; // a bit lighter brown
+$night-bordeaux: #49111C; // a bit more red
 
-$thistle: #d8bfd8;
-$lavender-mist: #E7E8F3;
-$lavender-mist-2: #EFF0FC;
-$lavender-mist-3: #EEEFFC;
-$ghost-white: #E9EAF3;
+$sharp-magenta: #8b008b; // bright magenta
+$tyrian-purple: #66023C; // saturated darker purple
+$dark-magenta: #530053; // deep dark
+$deep-purple: #521945ff; // same but redder
 
-$soft-periwinkle: #918EF4;
-$periwinkle: #B9B8EC !default;
-$lavender: #CDCDE4;
+$thistle: #d8bfd8; // noticeable pink
 
-$teal-1: #468189;
-$muted-teal: #9EBC9E;
-$stormy-teal: #2D6C75;
-$deep-space-blue: #153243;
-$tropical-teal: #17BEBB;
+$soft-periwinkle: #918EF4; // bright saturated lavender
+$periwinkle: #B9B8EC !default; // hele erk lavendel
+$lavender: #CDCDE4; // light
+$lavender2: #e3ebffff; // very light
 
-$old-gold: #bab700;
-$night-bordeaux: #49111C;
+$teal-1: #468189; // erk sinakasroheline
+$muted-teal: #9EBC9E; // slightly colder light green
+$muted-teal-2: #7d938a; // tuhm roheline
+$muted-teal-3: #a4c2a8ff; // colder than sage green
+
+$stormy-teal: #2D6C75; // darker teal
+$deep-space-blue: #153243; // tumesinine
+$tropical-teal: #17BEBB; // bright turquoise
+
+$ebony: #575c55ff; // tume hallikasroheline
+$fern: #65743aff; // erk tume oliiv
+$dusty-olive: #6c7d47ff; // darker saturated olive
+
+$dry-sage: #a4b494ff; // light calm green
+$ash-grey: #bec5adff; // heledam roheline
+
+$alice-blue: #e7f0ffff; // cold white
+$celadon: #b9d8c2ff; // hele kapsaroheline
+$celadon2: #a5ccb2ff; // satureeritum kapsas
+$light-blue: #9ac2c9ff; // hele meresinine
+$alabaster-grey: #d4ddd7ff; // rohekasvalge
+
+$electric-sapphire: #5465ffff; // bright cerulean sapphire
+$electric-sapphire-rgba: rgba(84, 101, 255, 0.8);
+
+
+$ocean-twilight: #3744baff; // saturated cerulean hue
+$egyptian-blue: #2e3893ff; // a bit darker
+$egyptian-blue-rgba: rgba(46, 56, 147, 1); 
+
+$white-rgba: rgba(255,255,255,0.8);
+
+$old-gold: #bab700; // bright golden green
+
+$blue-slate: #666a86ff;
+$blue-slate2: #476a6f;
+$evergreen: #002500ff;
+$palm-leaf: #929982ff;
+$amethyst-smoke: #b47eb3ff;
+$petal-frost: #ffd5ffff;
+$mauve-shadow: #533b4dff;
+
 
 /**
  * COLOUR DEFAULTS
@@ -39,6 +76,11 @@ $background-color: $lavender-mist;
 $body-background-color: $lavender-mist;
 $header-background-color: $coffee-bean;
 $nav-background-color: $coffee-bean;
+
+$view-background-color: $dry-sage;
+$view-navigation-bg: $periwinkle;
+
+$film-navigation-bg: $periwinkle;
 
 // Borders
 $border-color: $dark-magenta;
@@ -102,29 +144,28 @@ $link-hover-color: $link-visited-color;
 // Sleek variables
 // adapted from Jekyll Sleek theme by Jan Czizikow
 
-$primary: #002c27 !default;
-$secondary: #ff6161 !default;
-$border: $border-color !default;
-$primary-light: #68a4f1;
+/*$primary: #002c27 !default;
+$secondary: #ff6161 !default;*/
+
+/*$primary-light: #68a4f1;*/
 $reverse: #3c3d41 !default;
-$success: #8fd896 !default;
-$error: #ff6161 !default;
+/*$success: #8fd896 !default;
+$error: #ff6161 !default;*/
 
 
-/*$light-bg-color: $platinum;*/
-$bg-color: $background-color;
+/*$bg-color: $background-color;
 $button-dark: #00594F;
 $dark-light: #594f00;
 $outline: #dbdbdb;
-$grey: $platinum;
+$grey: $platinum;*/
 
 
-$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+/*$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
 
 
 // Code
 $code-bg-color: $lavender-mist !default;
-$code-background-color: $code-bg-color;
+
 $code-text-color: #25292e !default;
 
 

@@ -7,7 +7,7 @@
  * Task-lists
  */
 
-.task-list {
+/*.task-list {
   margin-left: 0;
   padding-left: $spacing-unit * 0.6;
 }
@@ -36,7 +36,7 @@
     &:checked::after { border-color: $border-color-03 }
   }
 }
-
+*/
 
 
 /**
@@ -47,3 +47,254 @@
     width: calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+
+
+// adapted from Jekyll Sleek theme by Jan Czizikow
+
+
+@mixin clearfix {
+  &::before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin container($breakpoint) {
+  margin: 0 auto;
+  @if ($breakpoint != 0) {
+    max-width: $breakpoint;
+  } @else {
+    max-width: 100%;
+  }
+}
+
+@mixin breakpoint($query) {
+  @media only screen and (min-width:#{$query}) {
+    @content;
+  }
+}
+
+
+// main block styles. container is wide, wrapper is narrow
+
+/** Full page grid */
+
+.fullwidth {
+  margin: 2em;
+  @extend %clearfix;
+}
+
+/**
+ * Container
+ */
+
+.container {
+  padding: 0 20px;
+  @include container(0);
+
+  @include breakpoint($sm) {
+    @include container(540px);
+  }
+
+  @include breakpoint($md) {
+    @include container(720px);
+  }
+
+  @include breakpoint($lg) {
+    @include container(960px);
+  }
+
+  @include breakpoint($xl) {
+    @include container(1170px);
+  }
+
+
+}
+
+// arrange blocks to flex in video view title area
+
+.hero-flex {
+  padding-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+  @extend %clearfix;
+
+  @media screen and (max-width: $on-medium) {
+    padding-right: $spacing-unit * 0.6;
+    padding-left: $spacing-unit * 0.6;
+  }
+}
+
+
+
+
+// redesigned-memory hero block, use with container inside
+
+.hero-rm {
+  width: 100%;
+  padding: 3rem 0;
+  margin: 0;
+
+  img {
+    width: 100%;
+  }
+
+  @include breakpoint($md) {
+    img {
+      max-width: 465px;
+    }    
+  }
+
+  @include breakpoint($xl) {
+    img {
+      max-width: 365.63px;
+    }
+  }
+  &.film-navigation,
+  &.view-navigation {
+    padding: 0;
+
+    .controls__inner {
+      border-top: none;
+    }
+  }
+  
+  &.full-height {
+    /*min-height: 5em;*/
+    padding-bottom: 0;
+  }
+}
+
+main.home {
+  .hero-rm.first {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+
+// resource and project grids
+
+
+.resource-list, .project-grid, .resource-grid {
+  padding-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+
+  @include breakpoint($md) {
+    padding-top: 5em;
+  }
+}
+
+.resource-item, .project-card { 
+  display: block;
+  position: relative;
+  width: 100%;
+  /*min-height: 350px;*/
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 2.25rem; 
+
+  a,
+  a:hover,
+  a:focus,
+  &:hover,
+  &:focus {
+    border-bottom: 0;
+    box-shadow: 0 2px 20px 0 hsla(79, 28%, 38%, .1);;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  img {
+  min-height: 150px;
+  padding-bottom: 1rem;
+  &:hover,
+  &:focus {
+
+  }
+  }
+}
+
+.grid-four, 
+.grid-five {
+    @include breakpoint($sm) {
+    width: 48.4375%;
+    margin-right: 3.125%;
+
+    &:last-of-type,
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+
+    @include breakpoint($md) {
+    width: 31.25%;
+    margin-right: 3.125%;
+
+    &:nth-child(2n+2) {
+      margin-right: 3.125%;
+    }
+
+    &:last-of-type,
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }
+  }
+}
+
+.grid-four {
+    @include breakpoint($xl) {
+    width: 22%;
+    margin-right: 4%;
+
+    &:nth-child(2n+2),
+    &:nth-child(3n+3) {
+      margin-right: 4%;
+    }
+
+    &:last-of-type,
+    &:nth-child(4n+4) {
+      margin-right: 0;
+    }
+  }
+}
+
+.grid-five { 
+  @include breakpoint($xl) {
+    width: 18.25%;
+    margin-right: 2.1875%;
+
+    &:nth-child(2n+2),
+    &:nth-child(3n+3) {
+      margin-right: 2.1875%;
+    }
+
+    &:last-of-type,
+    &:nth-child(5n+5) {
+      margin-right: 0;
+    }
+  }
+ }
+

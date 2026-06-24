@@ -1,0 +1,17 @@
+<main class="home">
+  <section class="content-grid">
+    <div class="fullwidth">
+      <div class="resource-grid">
+        {% for item in site.videos %}
+          <div class="resource-item grid-five">
+            <h5>{{ item.title }} ({{ item.year }})</h5>
+            <div class="image">
+              <a href="{{ item.url }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/videos/{{ item.image }}" /></a>
+              <p>{{ item.summary}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

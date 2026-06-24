@@ -15,15 +15,15 @@
 
     <a href="{{ film.url | relative_url }}">
 
-    {% if film.featured-img %}
+    {% if film.image %}
       <figure class="film-card__thumb">
         <img
-          src="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{film.featured-img}}"
-          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{film.featured-img}}"
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{film.image}}"
+          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{film.image}}"
           class="lazyload blur"
           alt="{{film.title}}"
         />
-        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{film.featured-img}}" alt="{{ film.title }}"></noscript>
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/events/{{film.image}}" alt="{{ film.title }}"></noscript>
       </figure>
     {% else %}
       <figure class="film-card__thumb">

@@ -1,0 +1,18 @@
+<main class="content periwinkle">
+  <section class="content-grid">
+    <div class="fullwidth">
+      <div class="resource-grid" itemscope="" itemtype="http://schema.org/Blog">
+        {% for item in site.data.featured_documentaries %}
+        <div class="resource-item grid-five">
+          <!-- <h5>{{ item.name }}</h5> -->
+          <div class="image">
+            <a href="{{ item.www }}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/videos/{{ item.image }}" /></a>
+            <!-- <p>{{ item.desc}}</p> -->
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>
+<div class="spacer"></div>

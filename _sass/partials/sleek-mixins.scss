@@ -30,28 +30,6 @@
   }
 }
 
-.container, .hero-wrapper {
-  padding: 0 20px;
-  @include container(0);
-
-  @include breakpoint($sm) {
-    @include container(540px);
-  }
-
-  @include breakpoint($md) {
-    @include container(720px);
-  }
-
-  @include breakpoint($lg) {
-    @include container(960px);
-  }
-
-  @include breakpoint($xl) {
-    @include container(1170px);
-  }
-}
-
-
 
 
 
@@ -160,7 +138,7 @@
 .header__link {
   color: $text-color;
   padding: .938rem 0;
-  border-top: 1px solid $border;
+  border-top: 1px solid $border-color;
 }
 
 

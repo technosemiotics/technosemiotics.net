@@ -2,15 +2,37 @@
 layout: base
 ---
 <div itemscope itemtype="https://schema.org/Film">
-  <header class="hero-rm thistle">
-    <div class="wrapper">
-      <div class="hero-left-1">
-        <div class="image">
-          <img class="featured" src="{{ site.url }}{{ site.baseurl }}/assets/img/films/{{page.image}}" alt="{{ page.title }}" />
+  <header class="hero-rm view">
+    <div class="container fullwidth hero-flex">
+      <div class="hero-inner wide">
+        <div class="video">
+          {% if page.vimeo_id %}
+          <div class="embed-container">
+            <iframe
+                src="https://player.vimeo.com/video/{{ page.vimeo_id }}"
+                width="700"
+                height="480"
+                frameborder="0"
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen>
+            </iframe>
+          </div>
+          {% elsif page.youtube_id %}
+          <div class="embed-container">
+            <iframe
+                src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+                width="700"
+                height="480"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+          </div>
+          {% endif %}
         </div>
       </div>
 
-      <div class="hero-right-2">
+      <div class="hero-inner">
         <div class="text">
           {%- include categories.html -%}
           <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -39,39 +61,21 @@ layout: base
           {% endif %}
           <p>{{ page.summary }}</p>
 
-            {% if page.rt %}
-            <div class="post-meta">
-              <span class="meta-label" itemprop="sameAs"><a href="{{ page.rt }}" class="tomato" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/assets/logos/Rotten_Tomatoes.svg" /></a></span>
-            </div>
-            {% endif %}
+          {%- include tags.html -%}
 
         </div>
       </div>
+
         
 
     </div>
   </header>
 </div>
-<!-- HERO PERIWINKLE + CONTAINER -->
-  <div class="hero-rm film-navigation">
-    <div class="wrapper">
-      {%- include post-navigation.html -%}
-    </div>
-  </div> 
-<!-- ///END HERO PERIWINKLE + CONTAINER -->
-  
 
-
-
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <article class="post">
-        <div class="post-content" itemprop="description">
-          {{ content }}
-        </div>
-        {%- include tags.html -%}
-        
-      </article>
-    </div>
-  </main>
-</div>
+<!-- VIEW NAVIGATION BLOCK -->
+<div class="hero-rm view-navigation full-height">
+  <div class="container">
+    {%- include post-navigation.html -%}
+  </div>
+</div> 
+<!-- ///END VIEW NAV -->

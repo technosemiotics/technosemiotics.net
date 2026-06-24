@@ -8,7 +8,7 @@ categories:
   - Drama
 tags: [social media, data, information influence]
 imdb: https://www.imdb.com/title/tt11464826/
-featured-img: the-social-dilemma.jpg
+image: the-social-dilemma.jpg
 youtube_id: uaaC57tcci0
 rt: https://www.rottentomatoes.com/m/the_social_dilemma
 ---

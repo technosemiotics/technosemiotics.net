@@ -5,10 +5,11 @@ author:
 
 tagline: a research network and resource centre
 description: >
-  Technosemiotics bridges the studies 
-  of technology, the environment, and the sociocultural sphere. 
+  Technosemiotics bridges the studies of technology, the environment, and the sociocultural sphere. 
 
-
+image: 
+  src: "img/illustrations/ichavez_texnolotl.png"
+  caption: "Texnolotl by Israel Chávez"
 
 # Build settings
 baseurl: ""
@@ -88,7 +89,9 @@ collections:
   films:
     output: true
     permalink: /films/:name/
-
+  videos:
+    output: true
+    permalink: /view/:name/
 
 defaults:
   -
@@ -126,7 +129,12 @@ defaults:
       type: "films"
     values:
       layout: "film"
-
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "videos"
+    values:
+      layout: "view"
 
 
 # Exclude from processing.

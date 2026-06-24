@@ -1,0 +1,12 @@
+<!-- this part will be included in every major layout. define page title layout and styles globally for all content types. use conditionals to switch design between content types. -->
+
+{%- assign type = page.layout -%}
+<header class="hero-header thistle">
+{% if type == "post" %}
+{%- include hero-header.html -%}
+{% elsif type == "event" %}
+{%- include event-header.html -%}
+{% else %}
+{%- include page-header.html -%}
+{% endif %}
+</header>
