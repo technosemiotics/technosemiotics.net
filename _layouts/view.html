@@ -59,7 +59,7 @@ layout: base
           {% if page.tagline %}
           <div class="post-meta subtitle">{{ page.tagline | escape }}</div>
           {% endif %}
-          <p>{{ page.summary }}</p>
+          <p>{% if page.summary %}{{ page.summary }}{% else %} {{ page.description }}{% endif %}</p>
 
           {%- include tags.html -%}
 

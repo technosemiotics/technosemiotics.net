@@ -3,10 +3,11 @@
     <div class="fullwidth">
       <div class="resource-grid">
         {% for item in site.videos %}
-          <div class="resource-item grid-five">
-            <h5>{{ item.title }} ({{ item.year }})</h5>
+          <div class="resource-item grid-{{ include.grid }}">
+            
             <div class="image">
               <a href="{{ item.url }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/videos/{{ item.image }}" /></a>
+              <h5>{{ item.title }} ({{ item.year }})</h5>
               <p>{{ item.summary}}</p>
             </div>
           </div>

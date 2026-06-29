@@ -1,0 +1,25 @@
+<div class="hero-rm {{ include.bg }}">
+  <div class="{{ include.class }}">
+  	<div class="hero-title center">
+  		<h1 id="similar-projects-elsewhere">{{ include.title }}</h1>
+  	</div>
+  	<div class="resource-list">
+			{% for item in items %}
+      <div class="resource-item grid-{{ include.grid }}">
+        <div class="image">
+        	<a href="https://{{ item.www }}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/{{ include.img_path}}/{{ item.image }}" /></a>
+          {% if item.name %}<h5>{{ item.name }}</h5>{% endif %}
+          {% if item.desc %}<p>{{ item.desc}}</p>{% endif %}
+          <p>
+            {% if item.www_title %}
+            <a href="https://{{ item.www }}/">{{item.www_title}}&nbsp;&raquo;</a>
+            {% else %}
+            <a href="https://{{ item.www }}/">{{item.www}}&nbsp;&raquo;</a>
+            {% endif %}
+          </p>
+        </div>
+      </div>
+			{% endfor %}
+    </div>
+   </div>
+ </div>
