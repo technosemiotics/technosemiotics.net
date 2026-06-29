@@ -178,54 +178,7 @@
 
 
 
-// hero content divs floaters
 
-.hero-inner {
-  display: block;
-  position: relative;
-  width: 100%;
-  
-  @include breakpoint($md) {
-    width: 48.4375%;
-    margin-right: 3.125%;
-
-    &:last-of-type,
-    &:nth-child(2n+2) {
-      margin-right: 0;
-    }
-
-  }
-
-  @include breakpoint($xl) {
-    width: 31.25%;
-    margin-right: 3.125%;
-
-    &:nth-child(2n+2) {
-      margin-right: 3.125%;
-    }
-
-    &:last-of-type,
-    &:nth-child(3n+3) {
-      margin-right: 0;
-    }
-  }
-
-  &.wide {
-    @include breakpoint($xl) {
-      width: 65.625%;
-      margin-right: 3.125%;
-
-      &:nth-child(2n+2) {
-        margin-right: 3.125%;
-      }
-
-      &:last-of-type,
-      &:nth-child(3n+3) {
-        margin-right: 0;
-      }
-    }
-  }  
-}
 
 
 
